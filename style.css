@@ -87,7 +87,7 @@ nav ul li a:hover {
   height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/api/placeholder/1200/800") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/picture of pc with code.jpg") center/cover no-repeat;
   color: white;
   text-align: center;
   padding-top: 4rem;
@@ -157,12 +157,15 @@ nav ul li a:hover {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 297px;
+  obj: cover;
 }
 
 .about-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: cover;
 }
 
 /* Featured Writers */
@@ -470,6 +473,10 @@ body.dark-mode .work-slide {
 
   nav ul li {
     margin: 1rem 0;
+  }
+
+  .hero {
+    background-image: url("./images/picture of pc with code.jpg");
   }
 
   .hero h1 {
