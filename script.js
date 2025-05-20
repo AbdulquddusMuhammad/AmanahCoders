@@ -1,3 +1,4 @@
+
 // Mobile Menu Toggle
 const menuToggle = document.getElementById("menuToggle");
 const mainMenu = document.getElementById("mainMenu");
